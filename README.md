@@ -16,6 +16,7 @@
 
 | Section           | Link                                    |
 | ----------------- | --------------------------------------- |
+| Roadmap          | [Roadmap](#roadmap--future-development)                   |
 | Overview          | [Overview](#overview)                   |
 | Features          | [Features](#features)                   |
 | Installation      | [Installation](#installation)           |
@@ -27,6 +28,13 @@
 | Contributing      | [Contributing](#contributing)           |
 | Status            | [Status](#status)                       |
 | License           | [License](#license)                     |
+
+---
+
+## Roadmap & Future Development
+* **Web Integration:** We are currently architecting a web-based interface. While the core "Sorting Machine" logic remains Python-native for security and performance, a lightweight frontend bridge is in development to bring Sails AI to the browser.
+* **Sails Lychee (Flash):** Performance optimization for mobile/lightweight environments is ongoing.
+* **Pro-Mode Expansion:** Adding more advanced analytical capabilities to the Pro-tier generation engine.
 
 ---
 
