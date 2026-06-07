@@ -1,0 +1,31 @@
+
+[project]
+name = "sails"
+version = "0.1.0"
+description = "AI-focused project structure (for free)"
+authors = [
+    {name = "n1nerlang"}
+]
+dependencies = [
+    "pydantic-settings>=2.0.0",
+    "requests>=2.31.0",
+    "loguru>=0.7.0",       # Better logging
+    "python-dotenv>=1.0.0", # Environment variable management
+    "numpy>=1.26.0",       # Math/Array operations
+    "pandas>=2.1.0",       # Data manipulation
+    "httpx>=0.25.0",       # Modern async HTTP client
+    "rich>=13.0.0",        # Beautiful CLI output
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-asyncio>=0.21.0",
+    "black>=23.0.0",
+    "mypy>=1.5.0",
+    "ruff>=0.1.0",        # Fast linter
+]
