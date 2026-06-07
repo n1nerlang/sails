@@ -2,8 +2,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Status](https://img.shields.io/badge/Status-WIP-orange)
-![License](https://img.shields.io/badge/License-TBD-lightgrey)
-![AI](https://img.shields.io/badge/AI-Experimental-purple)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![AI](https://img.shields.io/badge/AI-Experimental-green)
 ![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
 
 > An experimental AI project written in Python.
